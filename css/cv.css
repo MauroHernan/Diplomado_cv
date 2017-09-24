@@ -1,0 +1,54 @@
+body{
+	
+}
+
+#container{
+	width: 80%;
+	background-color: DDD;
+	margin: 0 auto;
+}
+
+.header{
+	padding: 10px 0 10px 10px;
+	background-color: #CCD;
+	height: 150px;
+}
+
+.nav{
+	border: 1px solid #7C7C7C;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav ul li{
+	float: left;
+	background: #F4F4F4;
+	margin-left: 10px;
+	width: 20%;
+}
+
+.nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.header .titulo {
+	font-size: 50px;
+	font-weight: bold;
+	color: blue;
+}
+
+.content{
+
+}
+
+.footer{
+
+}

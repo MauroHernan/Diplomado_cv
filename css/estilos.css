@@ -1,0 +1,185 @@
+body {
+  background-image:url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* ----------- CONTAINER ----------- */
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+
+
+/* --- header --- */
+#header {
+	margin-top: 0px;
+	height: 120px;
+	background-color: #716d6d;
+}
+
+#name {
+	padding-top: 20px;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: 'Passion One', cursive;
+	color: #ffffff;
+	text-align: center;	
+}
+
+.aclaracion{
+	margin-top: -45px;
+	font-size: 25px;
+	font-style: italic;
+	color: #f4ebc3;
+	text-align: center;
+}
+
+
+/* --- nav --- */
+nav {
+	display: block;		
+	margin:5px;
+	font-family: 'Russo One', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;  
+	background-color: #4a423f;  
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 12px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	background-color: #111;	
+}
+
+
+/* --- content --- */
+#content {
+	font-family: serif;
+	height: auto;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 16px;	
+}
+
+.item{
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+
+div .item {
+	border-radius: 5px;
+}
+
+
+.left {
+	position: relative;
+	float: left;
+	flex: 1 20%;	
+	background-color: #8d6c50;	
+	color: #0a0301;
+}
+
+.center {
+	position: relative;
+	float: left;
+	flex: 2 60%;
+	background-color: #ccc7c5;
+	color: #111;
+}
+
+
+.right {
+	position: relative;
+	float: right;
+	flex: 1 20%;
+	background-color: #F4EBC3;
+}
+
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+td{
+	text-align: center;
+}
+
+.exp_vacio{
+	flex: 1 5%;	
+}
+
+.exp_detalle{
+	flex: 2 70%;	
+}
+
+.p-2 {
+    width: 150px;
+    background-color: green;
+    margin: 10px;
+}
+
+.flex-nowrap {
+	display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-last {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: 1;
+}
+
+.flex-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+
+/* --- footer --- */
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #716d6d;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+/*
+font-family: 'Bowlby One', cursive;
+font-family: 'Russo One', sans-serif;
+*/
