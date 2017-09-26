@@ -8,13 +8,12 @@ body {
 #container {
 	width: 1000px;
 	margin: 0 auto;
-	margin-top: -20px;
 }
 
 
 /* --- header --- */
 #header {
-	margin-top: 0px;
+	margin-top: -20px;
 	height: 120px;
 	background-color: #716d6d;
 }
@@ -73,7 +72,7 @@ nav a:hover {
 
 /* --- content --- */
 #content {
-	font-family: serif;
+	font-family: 'Rasa', sans-serif;
 	height: auto;
 	margin-bottom: 10px;
 	display: flex;
@@ -81,13 +80,13 @@ nav a:hover {
 	font-size: 16px;	
 }
 
-.item{
+.columna{
 	margin: 5px;
 	margin-bottom: 10px;
 	padding: 10px 20px;
 }
 
-div .item {
+div .columna {
 	border-radius: 5px;
 }
 
@@ -108,7 +107,6 @@ div .item {
 	color: #111;
 }
 
-
 .right {
 	position: relative;
 	float: right;
@@ -124,42 +122,43 @@ table {
 th {
     height: 50px;
 }
+
 td{
 	text-align: center;
 }
 
-.exp_vacio{
-	flex: 1 5%;	
-}
 
-.exp_detalle{
-	flex: 2 70%;	
-}
-
-.p-2 {
-    width: 150px;
-    background-color: green;
-    margin: 10px;
-}
-
-.flex-nowrap {
+#experiecia{
+	list-style-type:none;
+	padding:0;
 	display: flex;
-    flex-wrap: nowrap;
+	flex-wrap: nowrap;
 }
 
-.flex-last {
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: 1;
+.item1{
+	flex: 1 1 5%;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	margin:5px 2px;	
 }
 
-.flex-first {
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
+.item2{
+	flex: 1 1 60%;
+	background-color:#F4EBC3;
+	text-align:center;
+	margin:5px 2px;
+	padding: 5px;
 }
+
+.item2 h4, .item2 p{
+	margin:3px;
+}
+
+.item2 p{
+	font-size: 13px;
+}
+
 
 
 /* --- footer --- */
